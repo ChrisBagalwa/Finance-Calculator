@@ -1,0 +1,50 @@
+Finance_calculators Python
+
+# This program allows the user to access two different financial calculators: an investment calculator and a home loan repayment calculator.
+# Author: Chris Bagalwa
+# 25/04/2022
+
+0. Start
+1. Import the math library
+2. Prompt the user to choose the calculation they want to do
+3. print("Choose either 'investment' or 'bond' from the menu below to proceed:\n")
+4. print("investment      - to calculate the amount of interest you'll earn on interest")
+5. print("bond            - to calculate the amount you'll have to pay on a home loan")
+6. Declare the choice variable based on the user's choice
+7. print the choice
+8. If the user chooses investment perform the calculation below
+8.1. Convert the chosen string into lower case
+8.2. Prompt the user to input the amount of money that they are depositing
+8.3. Declare the P variable as float
+8.4. Prompt the user to input the interest rate (as a percentage)
+8.5. Declare the r variable as float
+8.6. Divide the r valiable by 100
+8.7. Prompt the user to input the number of years they plan on investing for
+8.8. Declare t variable as an integer
+8.9. Prompt the user to input whether they want simple or compound interest
+8.10. Declare the A variable to store the computed interest amount
+8.11. If the user chooses simple interest
+8.12. Convert the chosen string into lower case
+8.13. Compute the simple interest using the given formula
+        A = P * (1 + r * t)
+8.14. Else if the user chooses compound interest
+8.15. Convert the chosen string into lower case
+8.16. Compute the compound interest using the given formula
+        A = P * (1 + r)^t
+8.17. Print the value of A
+8.18. Display the computed interest amount
+9. Else if the user chooses bond
+9.1. Convert the chosen string into lower case
+9.2. Prompt the user to input the present value of the house
+9.3. Declare the P variable as a float
+9.4. Prompt the user to input the interest rate
+9.5. Declare the r variable as a float
+9.6. Prompt the user to input the number of months they plan to take to repay the loan
+9.7. Declare the n variable as an integer
+9.8. Compute the monthly interest rate
+9.9 Compute the monthly payment
+9.10. Print value of x
+9.11. Display the computed monthly payment
+10. Else if the user selects an invalid choice
+10.1. print "Invalid choice!"
+11. End
